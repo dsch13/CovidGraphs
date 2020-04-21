@@ -2,6 +2,19 @@
 Reproducible graphs using publicly available data from the NYT and JHU.
 Graphs tweeted daily at ~11:00 AM CT [@CovidPublicData](https://twitter.com/CovidPublicData)
 
+To create the graphs use 
+```python
+    make_NYT_Graph('cases', log=False)
+    make_NYT_Graph('cases', log=True)
+    make_NYT_Graph('deaths', log=False)
+    make_NYT_Graph('deaths', log=True)
+
+    make_JHU_graph('cases', log=False)
+    make_JHU_graph('cases', log=True)
+    make_JHU_graph('deaths', log=False)
+    make_JHU_graph('deaths', log=True) 
+ ```
+
 ## Graphs
 The 10 countries / states with the most cases are selected to be put in the daily graphs. Only the days since the 10th death are shown for each country to remove some of the tail and make the graph more informative. This may be increased in the future as totals increase. 
 
