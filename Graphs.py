@@ -92,10 +92,8 @@ def make_NYT_Graph(attribute, log):
     plt.close()
 
 
-Global_deaths = CleanJHU_Global(GD_url)
-Global_deaths = Global_deaths.reset_index()
-Global_cases = CleanJHU_Global(GC_url)
-Global_cases = Global_cases.reset_index()
+Global_deaths = CleanJHU_Global(GD_url).reset_index()
+Global_cases = CleanJHU_Global(GC_url).reset_index()
 
 
 def select_Countries():
