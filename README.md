@@ -1,4 +1,4 @@
-# Coronavirus (covid-19) graphs
+# Coronavirus (Covid-19) graphs
 Reproducible graphs using publicly available data from the NYT and JHU.
 Graphs tweeted daily at ~11:00 AM CT [@CovidPublicData](https://twitter.com/CovidPublicData)
 
